@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-changeicon"
+    version="1.0.0">
+    <name>Cordova Plugin Change icon</name>
+    <description></description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/tgensol/cordova-plugin-changeicon.git</repo>
+    <issue>https://github.com/tgensol/cordova-plugin-changeicon/issues</issue>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/plugin.js" name="plugin">
+            <runs/>
+            <clobbers target="ChangeIcon" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="ChangeIcon">
+                <param name="ios-package" value="ChangeIcon" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/ChangeIcon.h" />
+        <source-file src="src/ios/ChangeIcon.m" />
+    </platform>
+</plugin>

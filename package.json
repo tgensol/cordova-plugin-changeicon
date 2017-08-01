@@ -1,0 +1,28 @@
+{
+    "name": "cordova-plugin-changeicon",
+    "version": "1.0.0",
+    "cordova": {
+        "id": "cordova-plugin-changeicon",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "description": "Changing the icon dynamically on iOs 10.3",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tgensol/cordova-plugin-changeicon.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-ios",
+        "setAlternateIconName",
+        "icon",
+        "alternateIconName"
+    ],
+    "author": "Choose (Thibaut Gensollen)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tgensol/cordova-plugin-changeicon/issues"
+    },
+    "homepage": "https://github.com/tgensol/cordova-plugin-changeicon#readme"
+}
